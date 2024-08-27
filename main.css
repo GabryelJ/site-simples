@@ -1,0 +1,24 @@
+:root{
+    --green: #bdf7bd;
+    --white: #ffffff;
+    --black: #000000;
+}
+body{
+    font-family: monospace;
+}
+ul{
+    font-family: helvetica;
+}
+li{
+    list-style: circle;
+}
+.lista{
+    list-style: square;
+}
+#mensagem{
+    font-family: monospace;
+}
+.tema-claro{
+    color:  #000000;
+    background: #bdf7bd;
+}
