@@ -1,10 +1,14 @@
 :root{
-    --green: #bdf7bd;
-    --white: #ffffff;
-    --black: #000000;
+    --verde: #bdf7bd;
+    --branco: #ffffff;
+    --preto: #000000;
+}
+*{
+    color: var(--corDaFonte);
+    font-family: helvetica;
 }
 body{
-    font-family: monospace;
+    background: var(--corDeFundo);
 }
 ul{
     font-family: helvetica;
@@ -15,10 +19,11 @@ li{
 .lista{
     list-style: square;
 }
-#mensagem{
-    font-family: monospace;
-}
 .tema-claro{
-    color:  #000000;
-    background: #bdf7bd;
+    --corDeFundo: var(--branco);
+    --corDaFonte: var(--verde);
+}
+.tema-escuro{
+    --corDeFundo: var(--preto);
+    --corDaFonte: var(--verde);
 }
