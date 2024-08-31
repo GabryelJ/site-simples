@@ -11,4 +11,4 @@ Tópicos:
     Adicionar interatividade com Javascript. 
 
 ---
-![Reprodução:](https://imgur.com/z7ktWUd)
+![Reprodução:](https://i.imgur.com/z7ktWUd.gif)
